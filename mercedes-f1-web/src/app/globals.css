@@ -25,6 +25,10 @@ body {
   font-family: var(--font-sans), Arial, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Custom Scrollbar with Petronas Green thin line effect */
 ::-webkit-scrollbar {
   width: 4px;

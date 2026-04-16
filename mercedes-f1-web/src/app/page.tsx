@@ -20,8 +20,15 @@ export default function Home() {
       <RaceCountdown />
 
       {/* Race Calendar Section */}
-      <section id="calendar" className="w-full">
+      <section id="schedule" className="w-full">
         <RaceCalendar />
+      </section>
+
+      {/* Standings Section (Placeholder) */}
+      <section id="standings" className="w-full py-20 flex justify-center items-center h-64 border-t border-white/10">
+        <h2 className="text-2xl md:text-4xl font-black text-mercedes-silver tracking-tighter uppercase opacity-50">
+          STANDINGS (COMING SOON)
+        </h2>
       </section>
     </main>
   );
