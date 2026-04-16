@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  
+  /* Mercedes-AMG Petronas F1 Team Brand Colors */
+  --color-mercedes-black: #000000;
+  --color-mercedes-obsidian: #111111;
+  --color-mercedes-silver: #C8C8C8;
+  --color-petronas-green: #00A19B;
+  --color-ineos-red: #E10600;
+}
+
+:root {
+  --background: var(--color-mercedes-obsidian);
+  --foreground: var(--color-mercedes-silver);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), Arial, sans-serif;
+}
+
+/* Custom Scrollbar with Petronas Green thin line effect */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-mercedes-black);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-petronas-green);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00c7bf; /* Slightly lighter petronas green on hover */
+}
