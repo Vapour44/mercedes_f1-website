@@ -45,7 +45,7 @@ export default function Home() {
       {/* Standings Section */}
       <section id="standings" className="w-full py-24 px-4 md:px-8 xl:px-0 max-w-5xl mx-auto flex flex-col items-center relative z-10">
         <h2 className="text-2xl md:text-3xl font-black text-white tracking-tighter uppercase mb-16 text-center">
-          2026 DRIVERS' STANDINGS <span className="opacity-60">(AFTER ROUND 3 - JAPAN GP)</span>
+          2026 DRIVERS' STANDINGS <span className="opacity-60">(AFTER ROUND 4 - MIAMI GP)</span>
         </h2>
         
         <div className="w-full flex flex-col gap-8">
