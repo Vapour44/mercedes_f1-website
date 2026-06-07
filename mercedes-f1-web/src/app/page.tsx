@@ -77,7 +77,7 @@ export default function Home() {
               {/* Points */}
               <div className="flex flex-col items-center md:items-end">
                 <div className="text-7xl md:text-8xl font-black text-white leading-none tracking-tighter tabular-nums">
-                  <AnimatedNumber value={131} />
+                  <AnimatedNumber value={156} />
                 </div>
                 <div className="text-[#00A19C] font-black tracking-widest uppercase mt-1 text-xl opacity-90">
                   PTS
