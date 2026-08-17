@@ -45,7 +45,7 @@ export default function Home() {
       {/* Standings Section */}
       <section id="standings" className="w-full py-24 px-4 md:px-8 xl:px-0 max-w-5xl mx-auto flex flex-col items-center relative z-10">
         <h2 className="text-2xl md:text-3xl font-black text-white tracking-tighter uppercase mb-16 text-center">
-          2026 DRIVERS' STANDINGS <span className="opacity-60">(AFTER ROUND 5 - CANADIAN GP)</span>
+          2026 DRIVERS&apos; STANDINGS <span className="opacity-60">(AFTER ROUND 11 - HUNGARIAN GP)</span>
         </h2>
         
         <div className="w-full flex flex-col gap-8">
@@ -77,7 +77,7 @@ export default function Home() {
               {/* Points */}
               <div className="flex flex-col items-center md:items-end">
                 <div className="text-7xl md:text-8xl font-black text-white leading-none tracking-tighter tabular-nums">
-                  <AnimatedNumber value={205} />
+                  <AnimatedNumber value={219} />
                 </div>
                 <div className="text-[#00A19C] font-black tracking-widest uppercase mt-1 text-xl opacity-90">
                   PTS
@@ -114,7 +114,7 @@ export default function Home() {
               {/* Points */}
               <div className="flex flex-col items-center md:items-end">
                 <div className="text-7xl md:text-8xl font-black text-white leading-none tracking-tighter tabular-nums">
-                  <AnimatedNumber value={154} />
+                  <AnimatedNumber value={160} />
                 </div>
                 <div className="text-[#00A19C] font-black tracking-widest uppercase mt-1 text-xl opacity-90">
                   PTS
