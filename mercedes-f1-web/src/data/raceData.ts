@@ -22,7 +22,7 @@ export const raceData: Race[] = [
   { round: 13, country: 'Italy', circuit: 'Autodromo Nazionale Monza', date: '2026-09-06' },
   { round: 14, country: 'Spain', circuit: 'Circuit de Barcelona-Catalunya', date: '2026-09-13' },
   { round: 15, country: 'Azerbaijan', circuit: 'Baku City Circuit', date: '2026-09-26' },
-  { round: 16, country: 'Bahrain', circuit: 'Sepang International Circuit', date: '2026-10-04', title: 'FORMULA 1 GULF AIR BAHRAIN GRAND PRIX IN MALAYSIA 2026' },
+  { round: 16, country: 'Bahrain', circuit: 'Sepang International Circuit', date: '2026-10-04', title: 'Sepang International Circuit' },
   { round: 17, country: 'Singapore', circuit: 'Marina Bay Street Circuit', date: '2026-10-11' },
   { round: 18, country: 'United States', circuit: 'Circuit of the Americas', date: '2026-10-25' },
   { round: 19, country: 'Mexico', circuit: 'Autódromo Hermanos Rodríguez', date: '2026-11-01' },
